@@ -1,0 +1,88 @@
+.innerBanner .banner1{
+  position: relative;
+  width: 100%;
+  min-width :1230px;
+  height: 448px;
+  float: left;
+}
+.innerBanner .banner1 .banner{
+  width: 100%;
+  height: 448px;
+}
+.innerBanner .banner1 .banner-a{
+  display: block;
+  width: 100%;
+  height: 448px;
+  position: absolute;
+}
+.innerBanner .banner1 .banner-a img{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;  
+  width: 100%;
+  height: 448px;
+}
+.innerBanner .banner1 .banner-l{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 41px;
+  height: 69px;
+  margin-top: -35px;
+  overflow: hidden;
+  z-index: 999;
+  background: url("../../image/icon-slides.png") no-repeat -84px 50%;
+}
+.innerBanner .banner1 .banner-l:hover{
+  cursor: pointer;
+  background-position: 0 50%;
+}
+.innerBanner .banner1 .banner-r{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 41px;
+  height: 69px;
+  margin-top: -35px;
+  overflow: hidden;
+  z-index: 9999;
+  background: url("../../image/icon-slides.png") no-repeat -125px 50%;
+}
+.innerBanner .banner1 .banner-r:hover{
+  cursor: pointer;
+  background-position: -42px 50%;
+}
+.innerBanner .banner1 .dots{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -105px;
+  text-align: right;
+  z-index: 999;
+}
+.innerBanner .banner1 .dots a{
+  color: #666;
+  font-size: 12px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  border: 2px solid #fff;
+  border-color: rgba(255,255,255,0.3);
+  border-radius: 50%;
+  text-align: left;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: #f5f5f5;
+  background: rgba(0,0,0,0.4);
+  transition: all 0.4s linear;
+}
+.innerBanner .banner1 .dots a:hover{
+  background-color: #fff;
+  border-color: rgba(0,0,0,0.4);
+}
+.innerBanner .banner1 .dots a.current{
+  background-color: #fff;
+  border-color: rgba(0,0,0,0.4);
+}
